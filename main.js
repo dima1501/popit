@@ -3,5 +3,6 @@ function getRandomInt(max) {
 }
 
 function playAudio() {
-    new Audio(`assets/sound/sound_${getRandomInt(2) + 1}.mp3`).play();
+    var audio = document.getElementById(`audio${getRandomInt(2) + 1}`);
+    audio.play()
 }
