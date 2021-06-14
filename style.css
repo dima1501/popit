@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.popit {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
